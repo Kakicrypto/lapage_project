@@ -207,4 +207,7 @@ marimo/_lsp/
 __marimo__/
 
 #pdf
-.pdf
+*.pdf
+
+#md etudiant 
+p9_missions_complementaires.md
