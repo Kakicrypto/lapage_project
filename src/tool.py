@@ -2,7 +2,6 @@ def inspector (df):
     print("######### DEBUT DE L'ANALYSE #########")
 
     # fonction permetant de donner le nombres de ligne et de colonnes
-    nb_ligne = df.shape[0]
     print(f"Le df comprend {df.shape[0]} lignes et {df.shape[1]} colonnes ")
     print('\n---------------------------------------------------------------')
 
@@ -18,7 +17,6 @@ def inspector (df):
     print('\n---------------------------------------------------------------')
 
     #fonction donnant le nombre d'unique par colonnes
-    nb_unique = df.nunique()
     print("le nombre d'uniques dans les colonnes sont les suivants")
     print(f"{df.nunique()}")
     print('\n---------------------------------------------------------------')
