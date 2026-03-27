@@ -1,3 +1,5 @@
+import pandas as pd 
+
 def inspector (df):
     print("######### DEBUT DE L'ANALYSE #########")
 
@@ -25,3 +27,5 @@ def inspector (df):
     #    print("il y a une potentiel PK ")
 
     print("\n######### FIN DE L'ANALYSE #########")
+
+
